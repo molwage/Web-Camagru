@@ -1,0 +1,48 @@
+<?php
+session_start();
+?>
+<html>
+    <head>
+        <link href="registration.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="error_messages">
+        <?php
+            if ($_GET["error"]) {
+                if ($_GET["error"] == 1) {
+                    echo "Passwords do not match!";
+                } elseif ($_GET["error"] == 2) {
+                    echo "Username/email has already been taken";
+                }
+            }
+        ?>
+        </div>
+        <div class="background"></div>
+        <div class="block-style">
+        <div class="header">
+            <p>Register</p>
+        </div>
+        <form action="./registration.php" method="post">
+            <div class="input-group">
+                <label>Username</label>
+                <input type="text" name="username" required>
+            </div>
+            <div class="input-group">
+                <label>Email</label>
+                <input type="text" name="email" required>
+            </div>
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <label>Confirm password</label>
+                <input type="password" name="confirm_password" required>
+            </div>
+            <div class="input-group">
+                <a href="/registration/login.phtml"> <button class="btn" type="submit" name="submit">Submit</button></a>
+            </div>
+        </form>
+        </div>
+    </body>
+    </html>
