@@ -1,0 +1,68 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.background
+{
+    position: relative;
+    background-image: url("https://hdwallsource.com/img/2017/10/colored-neon-lights-desktop-wallpaper-62461-64420-hd-wallpapers.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.booth
+{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    width: 400;
+    background-color: rgba(201, 186, 218, 0.658);
+    /* border: 10% solid blueviolet; */
+    margin: 0 auto;
+}
+.button-cam
+{
+    /* position: absolute; */
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: rgba(166, 126, 204, 0.61);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#canvas
+{
+    display: none;
+}
+.username
+{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    color: white;
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.icons
+{
+    position: absolute;
+    top: 2%;
+    left: 85%;
+    width: 15%;
+    /* background: pink; */
+}
+.icons img
+{
+    position: relative;
+    height: 5%;
+    filter: invert(5) /*blur(1px)*/;
+    padding: 5%;
+}
+.icons img:hover
+{
+    transform: scale(2);
+}

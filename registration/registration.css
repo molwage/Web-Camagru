@@ -1,0 +1,88 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.background
+{
+    position: relative;
+    background-image: url("https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=08fc09f5f5be936c6759ab0cf80ab900&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+.block-style
+{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+.header
+{
+    font-size: 200%;
+    font: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: 200%;
+    margin: 50px auto 0px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0); 
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+form
+{
+    width: 200%;
+    margin: 0px auto;
+    padding: 20px;
+    color: white;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.596);
+    border-radius: 0px 0px 10px 10px;
+}
+.input-group
+{
+    margin: 10px 0px 10px 0px;
+}
+.input-group label
+{
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    text-align: left;
+    margin: 3px;   
+}
+.input-group input
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background: rgba(71, 71, 71, 0.534);
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgba(97, 97, 97, 0.377);  
+}
+.btn
+{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+}
+.error_messages
+{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    color: white;
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+}
