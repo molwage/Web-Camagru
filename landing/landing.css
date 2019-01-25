@@ -1,0 +1,43 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.background
+{
+    position: relative;
+    background-image: url("https://i.pinimg.com/originals/fe/9e/99/fe9e999f77fe1d7c2233db0b34ff7b90.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.icons
+{
+    position: absolute;
+    top: 15%;
+    left: 44%;
+    width: 25%;
+    /* background: pink; */
+}
+.icons img
+{
+    position: relative;
+    height: 5%;
+    filter: invert(5) /*blur(1px)*/;
+    padding: 5%;
+}
+.icons img:hover
+{
+    transform: scale(2);
+}
+.username
+{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    color: white;
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+}
